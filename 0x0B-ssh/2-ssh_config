@@ -1,7 +1,4 @@
-Host school
-    Hostname 35.168.8.210
-    User ubuntu
+Host 35.168.8.210
     IdentityFile ~/.ssh/school
-
     PasswordAuthentication no
 
