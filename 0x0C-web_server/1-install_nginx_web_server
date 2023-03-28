@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#install nginx and redirects to holberton school string
-sudo apt-get -y update
-sudo apt-get -y install nginx
-file1=/usr/share/nginx/html/index.html
-sudo bash -c "echo 'Super School ftw!' > $file1"
+# Script that installs Nginx server
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
 service nginx start
