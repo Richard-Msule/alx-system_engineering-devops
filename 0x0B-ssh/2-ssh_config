@@ -1,6 +1,3 @@
-Host *
-    PasswordAuthentication no
-
 Host school
     Hostname 35.168.8.210
     User ubuntu
